@@ -2,18 +2,6 @@
  * 05/19/2022
  */
 public class Leetcode206 {
-
-    /**
-     * LinkedList Node Class
-     */
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
-
     /**
      * Leetcode 206 - Reverse Linked List (Easy)
      * TC: O(n)
