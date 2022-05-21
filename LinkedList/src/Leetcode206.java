@@ -6,9 +6,9 @@ public class Leetcode206 {
      * Leetcode 206 - Reverse Linked List (Easy)
      * TC: O(n)
      * SC: O(1)
-     * (1) Save the pointer of newHead node
-     * (2) Add oldHead right after tail node
-     * (3) Move forward head pointer
+     * (1) Save the pointer of newHead node.
+     * (2) Add oldHead right after tail node.
+     * (3) Move forward head pointer.
      */
     public ListNode reverseList(ListNode head) {
         if (head == null) return null;

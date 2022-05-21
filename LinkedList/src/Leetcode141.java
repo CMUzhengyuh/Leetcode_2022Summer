@@ -1,3 +1,6 @@
+/**
+ * 05/19/2022
+ */
 public class Leetcode141 {
     /**
      * Leetcode 141 - Linked List Cycle (Easy)
