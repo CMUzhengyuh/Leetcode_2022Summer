@@ -1,5 +1,5 @@
 /**
- * 05/25/2022
+ * 05/26/2022
  */
 public class Leetcode61 {
     /**
@@ -8,9 +8,9 @@ public class Leetcode61 {
      * SC: O(1)
      * Count the number of nodes and find out the tail position.
      * Truncate rotation times with (mod size) to avoid redundancy.
-     * (1) Form a cycle first
-     * (2) Move tail pointer (size - k) times
-     * (3) Break the cycle and return the new head
+     * (1) Form a cycle first.
+     * (2) Move tail pointer (size - k) times.
+     * (3) Break the cycle and return the new head.
      */
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) return head;
