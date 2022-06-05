@@ -1,4 +1,6 @@
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 /**
  * 06/04/2022
@@ -24,5 +26,25 @@ public class Leetcode94 {
         traverse(cur.left);
         list.add(cur.val);
         traverse(cur.right);
+    }
+
+    /**
+     * Iterative implementation
+     */
+    public List<Integer> iterative(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode p = root;
+        while (!stack.isEmpty() || p != null) {
+            if (p != null) {
+                stack.push(p);
+                p = p.left;
+            } else {
+                TreeNode node = stack.pop();
+                result.add(node.val);
+                p = node.right;
+            }
+        }
+        return result;
     }
 }
