@@ -4,7 +4,7 @@ import java.util.Stack;
  */
 public class Leetcode155 {
     /**
-     * Leetcode 202 - Min Stack (Easy)
+     * Leetcode 155 - Min Stack (Easy)
      * The underlying data structure is two stacks:
      * (1) Min stack to support minimum elements.
      * (2) Basic stack to support fundamental stack operations.
