@@ -46,7 +46,7 @@ public class Leetcode1319 {
     }
 
     /**
-     * Corner Case: NOT ENOUGH CABLESao
+     * Corner Case: NOT ENOUGH CABLES
      */
 
 }
