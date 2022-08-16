@@ -15,7 +15,7 @@ public class Leetcode231 {
     }
 
     /**
-     * Corner Case 1: 0
-     * Corner Case 2: NEGATIVE INTEGER
+     * Corner Case: 0
+     * Corner Case: NEGATIVE INTEGER
      */
 }
