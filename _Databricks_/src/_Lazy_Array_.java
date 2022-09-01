@@ -38,4 +38,10 @@ public class _Lazy_Array_ {
         return -1;
     }
 
+    public static void main(String[] args) {
+        _Lazy_Array_ array = new _Lazy_Array_(new int[]{1, 2, 4, 6});
+        Function<Integer, Integer> f1 = x -> x * 3;
+        Function<Integer, Integer> f2 = x -> x * 2;
+        System.out.println(array.map(f1).map(f2).indexOf(36));
+    }
 }

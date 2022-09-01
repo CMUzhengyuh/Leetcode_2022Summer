@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class _NewString_ {
+public class _New_String_ {
     /**
      * Block of character to store the string.
      */
@@ -27,7 +27,7 @@ public class _NewString_ {
      */
     private int blockSize;
 
-    public _NewString_() {
+    public _New_String_() {
         this.blockList = new ArrayList<>();
         this.totalSize = 0;
         this.blockSize = 0;
@@ -142,7 +142,7 @@ public class _NewString_ {
     }
 
     public static void main(String[] args) {
-        _NewString_ bl = new _NewString_();
+        _New_String_ bl = new _New_String_();
         bl.insert('a', 10);
         bl.insert('b', 10);
         bl.insert('c', 10);
