@@ -2,6 +2,9 @@
  * Leetcode 41.
  */
 public class _First_Missing_Positive_ {
+    /**
+     * TC = O(n)
+     */
     public int firstMissingPositive(int[] nums) {
         // Swap num[i] with num[num[i] - 1] to place number to right index.
         for (int i = 0; i < nums.length; i++) {

@@ -2,11 +2,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * Leetcode 1743.
+ */
 public class _Remove_Array_From_Adjacent_Pairs_ {
-    /**
-     * Leetcode 1743.
-     */
     public int[] restoreArray(int[][] adjacentPairs) {
         // Map to store element -> adjacent elements mapping.
         Map<Integer, List<Integer>> map = new HashMap<>();
