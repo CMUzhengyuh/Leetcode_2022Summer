@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-
+import java.util.*;
 /**
  * 06/13/2022
  */
