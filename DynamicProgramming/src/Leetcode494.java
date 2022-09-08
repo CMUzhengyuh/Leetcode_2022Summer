@@ -3,7 +3,7 @@
  */
 public class Leetcode494 {
     /**
-     * Leetcode 494 -  Target Sum (Medium)
+     * Leetcode 494 - Target Sum (Medium)
      * TC: O(n * target)
      * SC: O(n * target)
      * Calculate the sum of given array first, check if target is not larger
