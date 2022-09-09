@@ -11,9 +11,9 @@ public class Leetcode309 {
      * Dimension 2: 0 represents holding a stock, 1 represents selling and
      *              2 represents available to buy in next time slot.
      * Traverse the profit array and the status function:
-     * (1) status 0 can be either holding an older one or buying currently.
-     * (2) status 1 can only sell in current time slot.
-     * (3) status 2 can be the next time of selling or not do anything.
+     * (1) Status 0 can be either holding an older one or buying currently.
+     * (2) Status 1 can only sell in current time slot.
+     * (3) Status 2 can be the next time of selling or not do anything.
      */
     public int maxProfit(int[] prices) {
         int n = prices.length;
