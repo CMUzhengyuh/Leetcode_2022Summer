@@ -9,7 +9,7 @@ public class Leetcode54 {
      * SC: O(m * n)
      * Traverse the matrix layer by layer. First tag all the vertex and divide
      * the traversal of each layer into four one-way horizontal and vertical
-     * movement until the size reaches the number of matrix elements
+     * movement until the size reaches the number of matrix elements.
      */
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new LinkedList<>();
